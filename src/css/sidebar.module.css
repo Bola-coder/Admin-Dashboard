@@ -1,0 +1,31 @@
+.sidebar {
+  padding: 10px 20px;
+  max-width: 255px;
+  height: 100vh;
+  background-color: #363740;
+  color: #a4a6b3;
+}
+
+.sidebar__title {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  margin-bottom: 100px;
+}
+
+.first__links {
+  padding: 12px;
+}
+
+.second {
+  margin-top: 100px;
+}
+
+.second__links {
+  padding: 12px;
+}
+
+.first__links p,
+.second__links p {
+  font-size: 1rem;
+  cursor: pointer;
+}
