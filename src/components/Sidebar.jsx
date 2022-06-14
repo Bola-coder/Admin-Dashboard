@@ -8,16 +8,27 @@ const Sidebar = () => {
       <div className={style.sidebar}>
         {sidebarContent.map((content, index) => (
           <nav key={index}>
-            <h3 className={style.sidebar__title}>{content.title}</h3>
+            <div className={style.sidebar__heading}>
+              <div className={style.sidebar__content}>
+                <img src={content.title.image} alt="" />
+                <h3 className={style.sidebar__title}>{content.title.text}</h3>
+              </div>
+            </div>
             {content.firstLinks.map((link, linkIndex) => (
               <div className={style.first__links} key={linkIndex}>
-                <p>{link}</p>
+                <div className={style.sidebar__content}>
+                  <img src={link.image} alt="" />
+                  <p>{link.text}</p>
+                </div>
               </div>
             ))}
             <div className={style.second}>
               {content.secondLinks.map((link, index) => (
                 <div className={style.second__links} key={index}>
-                  <p>{link}</p>
+                  <div className={style.sidebar__content}>
+                    <img src={link.image} alt="" />
+                    <p>{link.text}</p>
+                  </div>
                 </div>
               ))}
             </div>

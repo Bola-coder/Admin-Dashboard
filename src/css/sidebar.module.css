@@ -5,11 +5,23 @@
   background-color: #363740;
   color: #a4a6b3;
 }
+.sidebar__heading {
+  margin-top: 10px;
+  margin-bottom: 100px;
+}
+
+.sidebar__content {
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+}
+
+.sidebar__content img {
+  margin-right: 20px;
+}
 
 .sidebar__title {
-  margin-top: 10px;
   font-size: 1.2rem;
-  margin-bottom: 100px;
 }
 
 .first__links {
