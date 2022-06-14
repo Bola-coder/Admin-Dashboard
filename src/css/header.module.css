@@ -1,11 +1,8 @@
 .header {
-  position: fixed;
-  left: 20vw;
-  top: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 80vw;
+  /* width: 80vw; */
   padding: 5px 10px;
   background-color: #f7f8fc;
 }

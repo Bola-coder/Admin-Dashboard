@@ -8,6 +8,7 @@ import transactions from "./../images/transactions.png";
 import notification from "./../images/notification.png";
 import search from "./../images/search.png";
 import person from "./../images/person3.png";
+import edit from "./../images/editPicture.png";
 
 const Images = {
   charts,
@@ -20,6 +21,7 @@ const Images = {
   notification,
   search,
   person,
+  edit,
 };
 
 export default Images;
