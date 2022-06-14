@@ -1,0 +1,37 @@
+.header {
+  position: fixed;
+  left: 20vw;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80vw;
+  padding: 5px 10px;
+  background-color: #f7f8fc;
+}
+
+.title {
+  font-size: 1.2rem;
+  color: #252733;
+}
+
+.widgets {
+  padding: 10px;
+}
+
+.widgets img {
+  padding: 10px;
+}
+
+.profile {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+
+.profile p {
+  font-weight: bold;
+  margin-right: 20px;
+  color: #252733;
+}

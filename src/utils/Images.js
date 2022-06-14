@@ -5,6 +5,9 @@ import payouts from "./../images/payouts.png";
 import referrals from "./../images/referrals.png";
 import settings from "./../images/settings.png";
 import transactions from "./../images/transactions.png";
+import notification from "./../images/notification.png";
+import search from "./../images/search.png";
+import person from "./../images/person3.png";
 
 const Images = {
   charts,
@@ -14,6 +17,9 @@ const Images = {
   referrals,
   settings,
   transactions,
+  notification,
+  search,
+  person,
 };
 
 export default Images;

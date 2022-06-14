@@ -1,9 +1,11 @@
 .sidebar {
   padding: 10px 20px;
-  max-width: 255px;
+  max-width: 20vw;
   height: 100vh;
   background-color: #363740;
   color: #a4a6b3;
+  /* position: fixed;
+  left: 0; */
 }
 .sidebar__heading {
   margin-top: 10px;
