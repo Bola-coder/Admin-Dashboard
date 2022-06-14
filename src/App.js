@@ -1,18 +1,11 @@
-import Sidebar from "./components/Sidebar";
-import Header from "./components/Header";
-import Images from "./utils/Images";
-
+import Layout from "./layouts/Layout";
+import Settings from "./pages/Settings";
 function App() {
   return (
     <div className="">
-      <Sidebar />
-      <Header
-        title="Charts"
-        srcImg={Images.search}
-        notImg={Images.notification}
-        name="John Doe"
-        profileImg={Images.person}
-      />
+      <Layout>
+        <Settings />
+      </Layout>
     </div>
   );
 }

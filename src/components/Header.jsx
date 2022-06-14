@@ -5,7 +5,7 @@ const Header = ({ title, notImg, srcImg, name, profileImg }) => {
   return (
     <header className={style.header}>
       <div className={style.title}>
-        <h2>Charts</h2>
+        <h2>{title}</h2>
       </div>
       <div className={style.widgets}>
         <img src={srcImg} alt="" />
