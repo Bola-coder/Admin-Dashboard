@@ -1,5 +1,6 @@
 import React from "react";
 import Images from "../utils/Images";
+import transactions from "../utils/transactionContent";
 import style from "./../css/transactionDetails.module.css";
 const TransactionDetails = () => {
   return (
@@ -16,6 +17,9 @@ const TransactionDetails = () => {
             <p>Filter</p>
           </span>
         </div>
+      </div>
+      <div className={style.details__content}>
+        
       </div>
     </div>
   );
