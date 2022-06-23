@@ -9,6 +9,8 @@ import notification from "./../images/notification.png";
 import search from "./../images/search.png";
 import person from "./../images/person3.png";
 import edit from "./../images/editPicture.png";
+import filterIcon from "./../images/filterIcon.png";
+import sortIcon from "./../images/sortIcon.png";
 
 const Images = {
   charts,
@@ -22,6 +24,8 @@ const Images = {
   search,
   person,
   edit,
+  filterIcon,
+  sortIcon,
 };
 
 export default Images;

@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../components/Header";
+import TransactionDetails from "../components/TransactionDetails";
 import Images from "../utils/Images";
 import style from "./../css/settings.module.css";
 
@@ -14,7 +15,7 @@ const Transaction = () => {
         profileImg={Images.person}
       />
       <div>
-        <h1>Transaction Page</h1>
+        <TransactionDetails />
       </div>
     </section>
   );

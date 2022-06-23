@@ -1,0 +1,25 @@
+.transaction__details {
+  padding: 20px;
+}
+
+.details__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.details__header > div {
+  flex-basis: 15%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.details__header > div > span {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.details__header > div > span p {
+  padding: 10px;
+}
