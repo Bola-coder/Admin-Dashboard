@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import sidebarContent from "../utils/sidebarContent";
 import style from "./../css/sidebar.module.css";
 
@@ -18,7 +19,9 @@ const Sidebar = () => {
               <div className={style.first__links} key={linkIndex}>
                 <div className={style.sidebar__content}>
                   <img src={link.image} alt="" />
-                  <p>{link.text}</p>
+                  <Link to={link.route}>
+                    <p>{link.text}</p>
+                  </Link>
                 </div>
               </div>
             ))}
@@ -27,7 +30,9 @@ const Sidebar = () => {
                 <div className={style.second__links} key={index}>
                   <div className={style.sidebar__content}>
                     <img src={link.image} alt="" />
-                    <p>{link.text}</p>
+                    <Link to={link.route}>
+                      <p>{link.text}</p>
+                    </Link>
                   </div>
                 </div>
               ))}

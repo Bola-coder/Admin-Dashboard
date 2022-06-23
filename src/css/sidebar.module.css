@@ -16,6 +16,15 @@
   align-items: center;
 }
 
+.sidebar__content a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* .sidebar__content a:active {
+  background-color: red;
+} */
+
 .sidebar__content img {
   margin-right: 20px;
 }
