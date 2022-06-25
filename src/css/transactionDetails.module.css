@@ -79,9 +79,9 @@
 }
 
 .content__body span p.low {
-  background-color: green;
+  background-color: #29cc97;
 }
 
 .content__body span p.normal {
-  background-color: yellow;
+  background-color: rgb(196, 196, 4);
 }

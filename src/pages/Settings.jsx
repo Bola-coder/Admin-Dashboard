@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../components/Header";
 import Images from "../utils/Images";
 import EditProfile from "../components/EditProfile";
-import style from "./../css/settings.module.css";
+import style from "./../css/flex.module.css";
 
 const Home = () => {
   return (

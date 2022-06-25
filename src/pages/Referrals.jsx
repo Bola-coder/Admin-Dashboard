@@ -1,10 +1,9 @@
 import React from "react";
 import Header from "../components/Header";
-import TransactionDetails from "../components/TransactionDetails";
 import Images from "../utils/Images";
 import style from "./../css/flex.module.css";
 
-const Transaction = () => {
+const Referrals = () => {
   return (
     <section className={style.settings}>
       <Header
@@ -15,10 +14,10 @@ const Transaction = () => {
         profileImg={Images.person}
       />
       <div>
-        <TransactionDetails />
+        <h2>Referrals</h2>
       </div>
     </section>
   );
 };
 
-export default Transaction;
+export default Referrals;
