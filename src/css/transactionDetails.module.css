@@ -23,3 +23,65 @@
 .details__header > div > span p {
   padding: 10px;
 }
+
+.content__header,
+.content__body span {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 10px;
+  max-height: 90vh;
+}
+
+.content__header p,
+.content__body span p {
+  flex: 1;
+}
+
+.content__header p:first-child,
+.content__body span div {
+  flex: 2;
+  display: flex;
+  align-items: center;
+}
+
+.content__header p {
+  color: #9fa2b4;
+  font-weight: bold;
+}
+
+.content__body span div img {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.content__body p {
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.content__header p:last-child {
+  flex: 0.4;
+}
+.content__body span p.high,
+.content__body span p.normal,
+.content__body span p.low {
+  color: #fff;
+  padding: 5px;
+  width: 50px;
+  border-radius: 20px;
+  flex: 0.3;
+  text-align: center;
+}
+
+.content__body span p.high {
+  background-color: red;
+}
+
+.content__body span p.low {
+  background-color: green;
+}
+
+.content__body span p.normal {
+  background-color: yellow;
+}

@@ -11,6 +11,8 @@ import person from "./../images/person3.png";
 import edit from "./../images/editPicture.png";
 import filterIcon from "./../images/filterIcon.png";
 import sortIcon from "./../images/sortIcon.png";
+import man from "./../images/man.png";
+import woman from "./../images/woman.png";
 
 const Images = {
   charts,
@@ -26,6 +28,8 @@ const Images = {
   edit,
   filterIcon,
   sortIcon,
+  man,
+  woman,
 };
 
 export default Images;
